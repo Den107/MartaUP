@@ -3,9 +3,7 @@ body {
     font-size: 15px;
     line-height: 24px;
 }
-a {
-    color: inherit;
-}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -42,13 +40,7 @@ a {
 .menu__list a:hover {
     opacity: 1;
 }
-.header__btn {
-}
 
-.logo {
-}
-.menu {
-}
 .login {
     margin-right: 44px;
     font-weight: 600;
@@ -62,4 +54,104 @@ a {
     background-color: #fff;
     padding: 8px 43px;
     border-radius: 20px;
+}
+.header-slider {
+    padding-top: 111px;
+}
+.header-slider__item {
+}
+.header-slider__item-content {
+    display: flex;
+    justify-content: space-between;
+}
+.header-slider__item-info {
+    color: #ffffff;
+    max-width: 506px;
+}
+.header-slider__title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.header-slider__description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 55px;
+    margin-bottom: 60px;
+}
+.header-slider__btn {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #250f8a;
+    padding: 13px 39px;
+    background-color: #ffca00;
+    border-radius: 25px;
+}
+.header-slider__item-images {
+    margin-right: 82px;
+    margin-top: 10px;
+}
+.header-dots {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.header-dots button {
+    border: none;
+    background-color: #fff;
+    opacity: 0.5;
+    font-size: 0;
+    padding: 0;
+    height: 7px;
+    width: 7px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+}
+.header-dots .slick-active button {
+    width: 15px;
+    opacity: 1;
+}
+.specialised {
+    padding: 55px 0 93px;
+    background-image: url(../images/spec-bg.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    color: #202020;
+    text-align: center;
+}
+
+.specialised__title {
+    margin-bottom: 96px;
+}
+.title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+}
+.specialised__items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.specialised__item {
+    width: 280px;
+}
+.specialised__item-img {
+    margin-bottom: 23px;
+    min-height: 159px;
+}
+.specialised__item-title {
+    margin-bottom: 11px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.specialised__item-text {
+    padding: 0 10px;
+    color: #272727;
+    opacity: 0.7;
 }
