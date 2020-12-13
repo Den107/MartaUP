@@ -95,6 +95,7 @@ body {
     position: absolute;
     right: 0;
     top: 50%;
+    transform: translateY(-50%);
 }
 .header-dots button {
     border: none;
@@ -252,18 +253,13 @@ body {
     left: 0;
     right: 0;
 }
-.footer {
-}
 .footer__inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 61px;
+
     color: #272727;
-    padding: 0 40px;
+    padding: 20px 40px 17px;
 }
 .footer__link a + a {
     margin-left: 20px;
-}
-.footer__copy {
 }
